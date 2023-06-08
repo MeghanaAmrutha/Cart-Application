@@ -187,8 +187,8 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="13C-Yh-0JU" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                                 <rect key="frame" x="59" y="358" width="296" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="Mtn-jT-H2c"/>
-                                    <constraint firstAttribute="width" constant="296" id="jhN-9K-lBA"/>
+                                    <constraint firstAttribute="height" constant="34" id="tJ9-Ac-2th"/>
+                                    <constraint firstAttribute="width" constant="296" id="wPF-fo-915"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -197,8 +197,8 @@
                                 <rect key="frame" x="143" y="530" width="126" height="49"/>
                                 <color key="backgroundColor" red="0.092415355145931244" green="0.56103163957595825" blue="0.59888595342636108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="1wS-wJ-iWE"/>
-                                    <constraint firstAttribute="width" constant="126" id="8lT-Uv-Uxt"/>
+                                    <constraint firstAttribute="width" constant="126" id="ayK-a2-Hgx"/>
+                                    <constraint firstAttribute="height" constant="49" id="ei7-jt-A2y"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -210,8 +210,8 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8e-AB-Jqv" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                                 <rect key="frame" x="59" y="228" width="296" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="296" id="Zr7-jP-pBf"/>
-                                    <constraint firstAttribute="height" constant="34" id="dbe-QS-mbH"/>
+                                    <constraint firstAttribute="height" constant="34" id="scd-BQ-mrA"/>
+                                    <constraint firstAttribute="width" constant="296" id="tng-f4-5pm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -219,42 +219,42 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="forgot password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWS-cH-fNf">
                                 <rect key="frame" x="190" y="400" width="165" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="Ol9-H4-zxk"/>
-                                    <constraint firstAttribute="height" constant="38" id="eGB-iD-Oib"/>
+                                    <constraint firstAttribute="width" constant="165" id="sFh-vY-t8G"/>
+                                    <constraint firstAttribute="height" constant="38" id="xsU-8v-d0b"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tQ-vL-oh8">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dL0-4A-2F3">
+                                <rect key="frame" x="-1" y="35" width="414" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="WL6-6f-gZy"/>
-                                    <constraint firstAttribute="height" constant="44" id="hQR-tx-laX"/>
+                                    <constraint firstAttribute="width" constant="414" id="Ick-lM-R4S"/>
+                                    <constraint firstAttribute="height" constant="44" id="llF-Xh-lYa"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="LOGIN" id="7xf-yv-vkH"/>
+                                    <navigationItem title="LOGIN" id="Utz-Rh-BiK"/>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NRp-aG-umK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="YWS-cH-fNf" firstAttribute="top" secondItem="13C-Yh-0JU" secondAttribute="bottom" constant="8" symbolic="YES" id="6rp-QV-EP0"/>
-                            <constraint firstItem="fYf-63-Pod" firstAttribute="top" secondItem="YWS-cH-fNf" secondAttribute="bottom" constant="92" id="7X5-pm-Vqg"/>
-                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="13C-Yh-0JU" secondAttribute="trailing" constant="59" id="8XI-ru-01G"/>
-                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="YWS-cH-fNf" secondAttribute="trailing" constant="59" id="Bba-mV-s5W"/>
-                            <constraint firstItem="X8e-AB-Jqv" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="59" id="HOO-K2-mnk"/>
-                            <constraint firstItem="YWS-cH-fNf" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="190" id="KBU-rb-ygd"/>
-                            <constraint firstItem="2tQ-vL-oh8" firstAttribute="top" secondItem="NRp-aG-umK" secondAttribute="top" id="YH5-of-wd1"/>
-                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="X8e-AB-Jqv" secondAttribute="trailing" constant="59" id="Z1i-xk-Rd0"/>
-                            <constraint firstItem="13C-Yh-0JU" firstAttribute="top" secondItem="X8e-AB-Jqv" secondAttribute="bottom" constant="96" id="Zbg-zO-tUx"/>
-                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="fYf-63-Pod" secondAttribute="trailing" constant="145" id="auq-KW-pa1"/>
-                            <constraint firstItem="2tQ-vL-oh8" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" id="gct-ME-teb"/>
-                            <constraint firstItem="fYf-63-Pod" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="143" id="k1G-fq-o0n"/>
-                            <constraint firstItem="X8e-AB-Jqv" firstAttribute="top" secondItem="2tQ-vL-oh8" secondAttribute="bottom" constant="140" id="loV-Js-gwy"/>
-                            <constraint firstItem="2tQ-vL-oh8" firstAttribute="trailing" secondItem="NRp-aG-umK" secondAttribute="trailing" id="plq-gc-96l"/>
-                            <constraint firstItem="13C-Yh-0JU" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="59" id="stu-2B-deY"/>
+                            <constraint firstItem="13C-Yh-0JU" firstAttribute="top" secondItem="X8e-AB-Jqv" secondAttribute="bottom" constant="96" id="3bH-bW-pyW"/>
+                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="dL0-4A-2F3" secondAttribute="trailing" constant="1" id="4tF-SO-ZjW"/>
+                            <constraint firstItem="X8e-AB-Jqv" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="59" id="59r-dk-Znj"/>
+                            <constraint firstItem="13C-Yh-0JU" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="59" id="AlW-hb-AOQ"/>
+                            <constraint firstItem="fYf-63-Pod" firstAttribute="top" secondItem="YWS-cH-fNf" secondAttribute="bottom" constant="92" id="FDO-rq-Xhm"/>
+                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="X8e-AB-Jqv" secondAttribute="trailing" constant="59" id="Q1R-wg-Thi"/>
+                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="13C-Yh-0JU" secondAttribute="trailing" constant="59" id="QwA-ac-jsi"/>
+                            <constraint firstItem="fYf-63-Pod" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="143" id="Yeo-2j-O3D"/>
+                            <constraint firstItem="YWS-cH-fNf" firstAttribute="leading" secondItem="NRp-aG-umK" secondAttribute="leading" constant="190" id="e76-wk-UjN"/>
+                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="fYf-63-Pod" secondAttribute="trailing" constant="145" id="icZ-76-oiA"/>
+                            <constraint firstItem="X8e-AB-Jqv" firstAttribute="top" secondItem="dL0-4A-2F3" secondAttribute="bottom" constant="149" id="oKR-xz-82I"/>
+                            <constraint firstItem="NRp-aG-umK" firstAttribute="trailing" secondItem="YWS-cH-fNf" secondAttribute="trailing" constant="59" id="pyo-ff-MBv"/>
+                            <constraint firstItem="dL0-4A-2F3" firstAttribute="top" secondItem="wrl-jG-8Kb" secondAttribute="top" constant="35" id="q2L-cS-Imb"/>
+                            <constraint firstItem="YWS-cH-fNf" firstAttribute="top" secondItem="13C-Yh-0JU" secondAttribute="bottom" constant="8" symbolic="YES" id="yAQ-Vr-BwW"/>
+                            <constraint firstItem="dL0-4A-2F3" firstAttribute="leading" secondItem="wrl-jG-8Kb" secondAttribute="leading" constant="-1" id="zRT-nL-fvb"/>
                         </constraints>
                     </view>
                     <connections>
@@ -300,20 +300,6 @@
             <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="13C-Yh-0JU">
-            <size key="intrinsicContentSize" width="101.5" height="34"/>
-        </designable>
-        <designable name="X8e-AB-Jqv">
-            <size key="intrinsicContentSize" width="69" height="34"/>
-        </designable>
-        <designable name="aQ1-7O-IOk">
-            <size key="intrinsicContentSize" width="101.5" height="34"/>
-        </designable>
-        <designable name="jEv-EP-hnY">
-            <size key="intrinsicContentSize" width="69" height="34"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
